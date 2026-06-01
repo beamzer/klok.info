@@ -9,3 +9,7 @@ Header set Content-Security-Policy "default-src 'self'; object-src 'self'; base-
 <FilesMatch "^\.">
     Require all denied
 </FilesMatch>
+
+# Block dot-prefixed paths in subdirectories too (.git/config, .env/anything)
+# Uitzondering voor .well-known/ (Let's Encrypt, security.txt)
+RedirectMatch 404 "(^|/)\.(?!well-known/)"
