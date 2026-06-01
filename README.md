@@ -5,6 +5,8 @@ Een eenvoudige webklok met dag, dagdeel, datum en seizoen — bedoeld voor
 zichtbaar te hebben, bijvoorbeeld op een oude iPad die als beeldschermpje
 op de buffetkast staat.
 
+Live te bekijken op **https://klok.info**.
+
 ![Screenshot](screenshot.png)
 
 ## Installeren als app op iPad
