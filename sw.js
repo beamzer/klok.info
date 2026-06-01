@@ -1,5 +1,5 @@
 // bump versie als je bestanden wijzigt — dit dwingt een nieuwe cache af
-var CACHE = "klok-v3";
+var CACHE = "klok-v4";
 var ASSETS = [
   "./",
   "index.html",

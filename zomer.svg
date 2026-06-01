@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <g stroke="#282828" stroke-width="5" stroke-linecap="round">
+  <!-- stralen, draaien langzaam -->
+  <g fill="#f5a830">
     <animateTransform attributeName="transform" type="rotate"
-                      from="0 50 50" to="360 50 50" dur="30s" repeatCount="indefinite"/>
-    <line x1="50" y1="8"  x2="50" y2="22"/>
-    <line x1="50" y1="78" x2="50" y2="92"/>
-    <line x1="8"  y1="50" x2="22" y2="50"/>
-    <line x1="78" y1="50" x2="92" y2="50"/>
-    <line x1="21" y1="21" x2="31" y2="31"/>
-    <line x1="69" y1="69" x2="79" y2="79"/>
-    <line x1="21" y1="79" x2="31" y2="69"/>
-    <line x1="69" y1="31" x2="79" y2="21"/>
+                      from="0 50 50" to="360 50 50" dur="40s" repeatCount="indefinite"/>
+    <polygon points="50,4 46,20 54,20"/>
+    <polygon points="50,96 46,80 54,80"/>
+    <polygon points="4,50 20,46 20,54"/>
+    <polygon points="96,50 80,46 80,54"/>
+    <polygon points="18,18 14,30 30,14"/>
+    <polygon points="82,82 86,70 70,86"/>
+    <polygon points="18,82 30,86 14,70"/>
+    <polygon points="82,18 70,14 86,30"/>
   </g>
-  <circle cx="50" cy="50" r="18" fill="#282828"/>
+  <!-- zon-schijf, ademt zachtjes -->
+  <circle cx="50" cy="50" r="22" fill="#ffd24a">
+    <animate attributeName="r" values="22;24;22" dur="5s" repeatCount="indefinite"/>
+  </circle>
 </svg>
