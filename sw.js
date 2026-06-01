@@ -1,8 +1,9 @@
 // bump versie als je bestanden wijzigt — dit dwingt een nieuwe cache af
-var CACHE = "klok-v1";
+var CACHE = "klok-v2";
 var ASSETS = [
   "./",
-  "index.php",
+  "index.html",
+  "app.js",
   "style.css",
   "station-clock.svg",
   "manifest.json",
