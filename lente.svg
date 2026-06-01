@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g fill="none" stroke="#282828" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate"
+                      values="0 2; 0 -3; 0 2" dur="3.2s" repeatCount="indefinite"/>
+    <path d="M15,55 Q32,30 50,55 Q68,30 85,55">
+      <animate attributeName="opacity" values="1;0;1" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M15,50 Q32,65 50,50 Q68,65 85,50" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

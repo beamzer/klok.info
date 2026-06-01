@@ -1,11 +1,15 @@
 // bump versie als je bestanden wijzigt — dit dwingt een nieuwe cache af
-var CACHE = "klok-v2";
+var CACHE = "klok-v3";
 var ASSETS = [
   "./",
   "index.html",
   "app.js",
   "style.css",
   "station-clock.svg",
+  "lente.svg",
+  "zomer.svg",
+  "herfst.svg",
+  "winter.svg",
   "manifest.json",
   "apple-touch-icon.png",
   "apple-touch-icon-152x152.png",

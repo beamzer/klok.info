@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="-18 50 50; 18 50 50; -18 50 50"
+                      dur="4s" repeatCount="indefinite"/>
+    <path d="M50 18 C72 30 70 60 55 75 L50 88 L45 75 C30 60 28 30 50 18 Z"
+          fill="#282828"/>
+  </g>
+</svg>
